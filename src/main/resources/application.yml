@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    region:
+      static: us-east-2
+      auto: false
+    credentials:
+      access-key: AKIAUVD64BU6DSTZJ7VG
+      secret-key: 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
+
+    sqs:
+      url: https://sqs.us-east-2.amazonaws.com/320241143100/SimpleSendingMessageQueue
+      name: SimpleSendingMessageQueue
